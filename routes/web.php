@@ -1,4 +1,4 @@
-
+<?php
 Route::get('/', function () {
 return view('dashboard.index');
 })->name('home');
@@ -31,6 +31,6 @@ Route::get('/clear',function(){
     Artisan::call('cache:clear');
 });
 
-<!--checking pull-->
+//chekcing it.
 
 
